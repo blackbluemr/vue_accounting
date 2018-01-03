@@ -1,0 +1,31 @@
+{
+  "name": "selfdevelopment",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "webpack"
+  },
+  "keywords": [
+    "js",
+    "development"
+  ],
+  "author": "Vasyl Tarasov",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.0",
+    "gulp-ssh-deploy": "0.0.3",
+    "pouchdb": "^6.4.1",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "gulp-sass": "^3.1.0",
+    "lodash": "^4.17.4"
+  }
+}
