@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>BlackBlock - Organizer Application</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="manifest" href="site.webmanifest">
+      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  </head>
+  <body>
+    <div id="app" class="container-fluid">
+      <div class="row">
+
+        <div class="col-md-4 my-balance">
+            <balance></balance>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <last-operations></last-operations>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <operations></operations>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="last-operations/last-operations.js"></script>
+
+    <script src="operations/operations.js"></script>
+    <script src="balance/balance.js"></script>
+    <script src="index.js"></script>
+ </body>
+</html>
